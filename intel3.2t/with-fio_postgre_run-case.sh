@@ -4,7 +4,7 @@
 
 pushd fio
 sh ./postgre_precond.sh
-rm -rf /opt/data/vanda/fio/*
+rm -rf /opt/data/intel/fio/*
 popd
 
 ./2_initdb.sh   ./sysbench-cfg/benchmark.cfg
