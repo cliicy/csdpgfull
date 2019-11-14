@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dev_list=("sfdv0n1p1")
-vendor_list=("vanda")
+vendor_list=("intel")
 mkfs_opt="-t xfs -f"
 mnt_opt=" "
 mntpnt_base=/opt/data
